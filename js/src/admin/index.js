@@ -1,5 +1,8 @@
 import app from 'flarum/admin/app';
+import SettingsPage from './components/SettingsPage';
 
 app.initializers.add('justoverclock/first-visit-popup', () => {
-  console.log('[justoverclock/first-visit-popup] Hello, admin!');
+  app.extensionData
+    .for('justoverclock-first-visit-popup')
+    .registerPage(SettingsPage)
 });

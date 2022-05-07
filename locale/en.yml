@@ -1,7 +1,6 @@
 justoverclock-first-visit-popup:
-  # For more details on the format
-  # Checkout https://docs.flarum.org/extend/i18n.html#appendix-a-standard-key-format
   admin:
-    my_cool_key: My Cool Key
+    modalTitle: Modal Title
+    modalContent: Modal Content (HTML)
 
   forum:

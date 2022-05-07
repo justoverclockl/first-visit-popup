@@ -12,6 +12,7 @@
 namespace Justoverclock\FirstVisitPopup;
 
 use Flarum\Extend;
+use Flarum\Api\Event\Serializing;
 
 return [
     (new Extend\Frontend('forum'))
@@ -21,4 +22,7 @@ return [
         ->js(__DIR__.'/js/dist/admin.js')
         ->css(__DIR__.'/less/admin.less'),
     new Extend\Locales(__DIR__.'/locale'),
+    (new Extend\Settings)
+        ->serializeToForum('justoverclock-first-visit-popup.modalTitle', 'justoverclock-first-visit-popup.modalTitle')
+        ->serializeToForum('justoverclock-first-visit-popup.modalContent', 'justoverclock-first-visit-popup.modalContent')
 ];
