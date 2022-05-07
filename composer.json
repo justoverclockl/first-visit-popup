@@ -2,7 +2,7 @@
     "name": "justoverclock/first-visit-popup",
     "description": "First Visit Popup",
     "keywords": [
-        "flarum"
+        "first visit popup"
     ],
     "type": "flarum-extension",
     "license": "MIT",
@@ -19,11 +19,11 @@
     "extra": {
         "flarum-extension": {
             "title": "First Visit Popup",
-            "category": "",
+            "category": "features",
             "icon": {
-                "name": "",
-                "color": "",
-                "backgroundColor": ""
+                "name": "far fa-bell",
+                "color": "purple",
+                "backgroundColor": "white"
             }
         },
         "flarum-cli": {
