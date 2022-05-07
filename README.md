@@ -148,12 +148,6 @@ composer require justoverclock/first-visit-popup:"*"
 
 ```sh
 composer update justoverclock/first-visit-popup:"*"
-php flarum migrate
 php flarum cache:clear
 ```
 
-## Links
-
-- [Packagist](https://packagist.org/packages/justoverclock/first-visit-popup)
-- [GitHub](https://github.com/justoverclock/first-visit-popup)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
