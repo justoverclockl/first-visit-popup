@@ -25,7 +25,7 @@ export default class FirstVisitPopup extends ExtensionPage {
           <label className="fpv-label">{app.translator.trans('justoverclock-first-visit-popup.admin.CookieExp')}</label>
           <input
             className="FormControl fvp-cookie"
-            type="text"
+            type="number"
             id="fvp-title"
             placeholder="e.g. 5"
             name="fvp-title"
