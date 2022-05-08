@@ -25,4 +25,5 @@ return [
     (new Extend\Settings)
         ->serializeToForum('justoverclock-first-visit-popup.modalTitle', 'justoverclock-first-visit-popup.modalTitle')
         ->serializeToForum('justoverclock-first-visit-popup.modalContent', 'justoverclock-first-visit-popup.modalContent')
+        ->serializeToForum('justoverclock-first-visit-popup.exptime', 'justoverclock-first-visit-popup.exptime')
 ];
